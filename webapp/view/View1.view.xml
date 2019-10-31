@@ -1,0 +1,62 @@
+<mvc:View controllerName="Practice1.Practice_UI5.controller.View1" xmlns:mvc="sap.ui.core.mvc" displayBlock="true" xmlns="sap.m">
+	<Shell id="shell">
+		<App id="app">
+			<pages>
+				<Page id="page" title="{i18n>title}">
+					<content>
+						<VBox xmlns="sap.m" id="vboxid">
+						<Button
+				        id="jan"
+                       text="January"
+                       press=".month"/>
+                       	<Button
+				      id="feb"
+                       text="February"
+                       press=".month"/>
+                       	<Button
+				      id="mar"
+                       text="March"
+                       press=".month"/>
+                       	<Button
+				      id="apr"
+                       text="April"
+                       press=".month"/>
+                       	<Button
+				      id="may"
+                       text="May"
+                       press=".month"/>
+                       	<Button
+				      id="jun"
+                       text="June"
+                       press=".month"/>
+                       	<Button
+				      id="jul"
+                       text="July"
+                       press=".month"/>
+                       	<Button
+				      id="aug"
+                       text="August"
+                       press=".month"/>
+                       	<Button
+				      id="sep"
+                       text="September"
+                       press=".month"/>
+                       	<Button
+				      id="oct"
+                       text="October"
+                       press=".month"/>
+                       	<Button
+				      id="nov"
+                       text="November"
+                       press=".month"/>
+                       	<Button
+				      id="dec"
+                       text="December"
+                       press=".month"/>
+                       </VBox>
+					</content>
+				</Page>
+			</pages>
+		</App>
+	</Shell>
+</mvc:View>
